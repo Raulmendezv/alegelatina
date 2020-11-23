@@ -1,0 +1,111 @@
+/* Navbar */
+
+.nav-item {
+    text-align: center;
+}
+.dropdown-menu {
+    background-color: #7A4748;
+    text-align: center;
+}
+.dropdown-menu a {
+    color: white;
+}
+.dropdown-menu a:focus {
+    background-color: #FFC0CB;;
+}
+
+/* Portada */
+main {
+    width: 100%;
+    height: 680px;
+    background-color: #7A6C6C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main h1 {
+    font-family: "Pacifico", cursive;
+    text-shadow: 4px 4px 4px black;
+    font-size: 125px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    padding: 150px;
+}
+
+/* Títulos */
+h4 {
+    color: #3B2222;
+    font-size: 20px;
+}
+
+/* ul */
+
+.media {
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.media h5, p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+}
+.media img {
+    border-radius: 100%;
+}
+/* Ubicación */
+.ubicacion {
+    margin-top: 20px;
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+/* Sitio anterior */
+.sitio-anterior p {
+    color: #3B2222;
+}
+.sitio-anterior a {
+    text-decoration: none;
+}
+.sitio-anterior h4:hover {
+    color: #FBDDDD;
+
+}
+/* Footer */
+footer h5 {
+    color: #FBDDDD;
+    margin-top: 10px
+}
+footer p {
+    color: #FBDDDD;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 991px) {
+    .form-inline {
+        display: none;
+    }
+    .media img {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    main {
+        height: 350px;
+    }
+    main h1 {
+        font-size: 50px;
+        padding: 50px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 576px) {
+}
