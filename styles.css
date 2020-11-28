@@ -45,8 +45,9 @@ iframe {
     height: 400px;
 }
 
-h5 {
+h5, p {
     font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
 }
 
 /* Devices (landscape phones, 576px and up) */
