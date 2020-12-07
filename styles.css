@@ -72,7 +72,7 @@ h5, p {
         display: flex;
         justify-content: center;
         width: 140px;
-        display: none; /* habilitar búsqueda */
+        display: none;
     }
     main {
         height: 350px;
